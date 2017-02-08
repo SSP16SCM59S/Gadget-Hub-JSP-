@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>Welcome.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+		<servlet-name>Welcome</servlet-name>
+		<jsp-file>/Welcome.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>Welcome</servlet-name>
+		<url-pattern>/Welcome</url-pattern>
+	</servlet-mapping>
+  
+	
+	<servlet>
+		<servlet-name>Signup</servlet-name>
+		<jsp-file>/Signup.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>Signup</servlet-name>
+		<url-pattern>/Signup</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Register</servlet-name>
+		<jsp-file>/Register.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<jsp-file>/Login.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Login1</servlet-name>
+		<jsp-file>/Login1.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>Login1</servlet-name>
+		<url-pattern>/logincontrol</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<jsp-file>/Logout.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SmartPhone</servlet-name>
+		<jsp-file>/SmartPhone.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>SmartPhone</servlet-name>
+		<url-pattern>/phones</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Laptop</servlet-name>
+		<jsp-file>/Laptop.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>Laptop</servlet-name>
+		<url-pattern>/laptops</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Tv</servlet-name>
+		<jsp-file>/Tv.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>Tv</servlet-name>
+		<url-pattern>/tv</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Accessory</servlet-name>
+		<jsp-file>/Accessory.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>Accessory</servlet-name>
+		<url-pattern>/accessories</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Tablet</servlet-name>
+		<jsp-file>/Tablet.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>Tablet</servlet-name>
+		<url-pattern>/tablets</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Cart</servlet-name>
+		<jsp-file>/Cart.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>Cart</servlet-name>
+		<url-pattern>/cart</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ViewCart</servlet-name>
+		<jsp-file>/ViewCart.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>ViewCart</servlet-name>
+		<url-pattern>/cart1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteCart</servlet-name>
+		<jsp-file>/DeleteCart.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>DeleteCart</servlet-name>
+		<url-pattern>/deletecart</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>StoreManager</servlet-name>
+		<jsp-file>/StoreManager.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>StoreManager</servlet-name>
+		<url-pattern>/store</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AddProduct</servlet-name>
+		<jsp-file>/AddProduct.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>AddProduct</servlet-name>
+		<url-pattern>/addprod</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AddProduct1</servlet-name>
+		<jsp-file>/AddProduct1.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>AddProduct1</servlet-name>
+		<url-pattern>/addproduct</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UpdateProduct</servlet-name>
+		<jsp-file>/UpdateProduct.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>UpdateProduct</servlet-name>
+		<url-pattern>/updprod</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UpdateProduct1</servlet-name>
+		<jsp-file>/UpdateProduct1.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>UpdateProduct1</servlet-name>
+		<url-pattern>/updateproduct</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UpdateProduct2</servlet-name>
+		<jsp-file>/UpdateProduct2.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>UpdateProduct2</servlet-name>
+		<url-pattern>/update2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteProduct</servlet-name>
+		<jsp-file>/DeleteProduct.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>DeleteProduct</servlet-name>
+		<url-pattern>/delprod</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteProduct1</servlet-name>
+		<jsp-file>/DeleteProduct1.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>DeleteProduct1</servlet-name>
+		<url-pattern>/deletep1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteProduct2</servlet-name>
+		<jsp-file>/DeleteProduct2.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>DeleteProduct2</servlet-name>
+		<url-pattern>/deletep2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Checkout</servlet-name>
+		<jsp-file>/Checkout.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>Checkout</servlet-name>
+		<url-pattern>/checkout</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Checkout1</servlet-name>
+		<jsp-file>/Checkout1.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>Checkout1</servlet-name>
+		<url-pattern>/checkout1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ViewOrder</servlet-name>
+		<jsp-file>/ViewOrder.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>ViewOrder</servlet-name>
+		<url-pattern>/orders</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteOrder</servlet-name>
+		<jsp-file>/DeleteOrder.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>DeleteOrder</servlet-name>
+		<url-pattern>/deleteorder</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Salesmanager</servlet-name>
+		<jsp-file>/Salesmanager.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>Salesmanager</servlet-name>
+		<url-pattern>/sales</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CreateAccount</servlet-name>
+		<jsp-file>/CreateAccount.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>CreateAccount</servlet-name>
+		<url-pattern>/create</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UpdateOrder</servlet-name>
+		<jsp-file>/UpdateOrder.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>UpdateOrder</servlet-name>
+		<url-pattern>/updorder</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UpdateOrder1</servlet-name>
+		<jsp-file>/UpdateOrder1.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>UpdateOrder1</servlet-name>
+		<url-pattern>/updorder1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UpdateOrder2</servlet-name>
+		<jsp-file>/UpdateOrder2.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>UpdateOrder2</servlet-name>
+		<url-pattern>/updorder2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteOrderSales</servlet-name>
+		<jsp-file>/DeleteOrderSales.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>DeleteOrderSales</servlet-name>
+		<url-pattern>/delorder</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteOrderSales1</servlet-name>
+		<jsp-file>/DeleteOrderSales1.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>DeleteOrderSales1</servlet-name>
+		<url-pattern>/deleteorder1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteOrderSales2</servlet-name>
+		<jsp-file>/DeleteOrderSales2.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>DeleteOrderSales2</servlet-name>
+		<url-pattern>/deleteorder2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SubmitReview</servlet-name>
+		<jsp-file>/SubmitReview.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>SubmitReview</servlet-name>
+		<url-pattern>/submitreview</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SubmitReview1</servlet-name>
+		<jsp-file>/SubmitReview1.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>SubmitReview1</servlet-name>
+		<url-pattern>/submitreview1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ViewReview</servlet-name>
+		<jsp-file>/ViewReview.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>ViewReview</servlet-name>
+		<url-pattern>/viewreview</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Trending</servlet-name>
+		<jsp-file>/Trending.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>Trending</servlet-name>
+		<url-pattern>/trending</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AddOrder</servlet-name>
+		<jsp-file>/AddOrder.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>AddOrder</servlet-name>
+		<url-pattern>/addorder</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AddOrder1</servlet-name>
+		<jsp-file>/AddOrder1.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>AddOrder1</servlet-name>
+		<url-pattern>/addorder1</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
